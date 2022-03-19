@@ -1,0 +1,258 @@
+@media screen and (max-width: 1710px) {
+  .header__fav-block {
+    width: 30%;
+  }
+
+  .header__nav-block {
+    &_logo {
+      height: 6vh;
+    }
+
+    &_toys,
+    &_tree {
+      font-size: 24px;
+    }
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .filters-page__sort {
+    width: 100%;
+
+    &_select {
+      width: 60%;
+    }
+  }
+
+  .filters-page__form_item_icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .filters-page__form_name {
+    &.name {
+      font-size: 16px;
+    }
+  }
+
+  .filters-page__reset {
+    width: 150px;
+  }
+
+  .filters-page__card {
+    width: 200px;
+    height: 310px;
+  }
+
+  .tree-settings__trees_card  {
+    width: 125px;
+    height: 125px;
+
+    &-saved {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  .tree-settings__bg_card {
+    width: 55px;
+    height: 55px;
+  }
+
+  .tree-settings__buttons__save-btn {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+
+  .tree-settings__trees {
+    width: 80%;
+
+    &-saved {
+      width: 100%;
+    }
+  }
+
+  .tree-settings__trees_card  {
+    width: 100px;
+    height: 100px;
+
+    &-saved {
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  .tree-settings__bg_card {
+    width: 55px;
+    height: 55px;
+  }
+
+  .tree-settings__buttons__save-btn {
+    width: 120px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .filters-page {
+    justify-content: space-between;
+  }
+
+  .filters-page__cards {
+    width: 65%;
+  }
+
+  .filters-page__filters {
+    width: 35%;
+  }
+
+  .tree-settings__trees_card  {
+    width: 70px;
+    height: 70px;
+
+    &-saved {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .header__fav-block__search_search {
+    width: 180px;
+  }
+
+  .filters-page__cards {
+    width: 60%;
+  }
+
+  .filters-page__filters {
+    width: 40%;
+  }
+
+  .filters-page__card {
+    width: 180px;
+    height: 270px;
+    padding: 10px;
+  }
+
+  
+  .header__nav-block {
+    width: 30%;
+  }
+
+  .filters-page__sort_select{
+    font-size: 10px;
+  }
+
+  .filters-page__cards {
+    width: 65%;
+  }
+
+  .filters-page__filters {
+    width: 35%;
+  }
+
+  .filters-page__form_item {
+    width: 40px;
+
+    &_icon {
+      width: 30px;
+      height: 40px;
+    }
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .filters-page__form_name.name{
+    font-size: 12px;
+  }
+
+  .filters-page__sliders_years_year {
+    font-size: 14px;
+  }
+
+  .filters-page__size_label, .filters-page__favourite_label {
+    font-size: 14px;
+  }
+
+  .filters-page__card {
+    width: 160px;
+    height: 270px;
+    padding: 10px;
+  }
+
+  .filters-page__card_item {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .filters-page__reset {
+    font-size: 12px;
+    height: 40px;
+    width: 120px;
+  }
+
+  .filters-page__card_name.name {
+    font-size: 14px;
+  }
+
+  .filters-page__card_item {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .tree-settings__action-btns {
+    width: 100%;
+
+    &_reset {
+      width: 80px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .tree-settings__trees_card  {
+    width: 50px;
+    height: 50px;
+
+    &-saved {
+      width: 70px;
+      height: 70px;
+    }
+
+    .saved-toy {
+      width: 5px;
+      height: 5px;
+    }
+  }
+
+  .tree-settings__lights {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tree-settings__buttons__save-btn {
+    width: 90px;
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .tree-toys__toys_card {
+    width: 55px;
+    height: 55px;
+
+    &_counter {
+      width: 10px;
+      height: 10px;
+      font-size: 10px;
+    }
+  }
+}

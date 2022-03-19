@@ -1,0 +1,243 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+}
+
+.main-bg {
+  background-image: url('../assets/images/main-bg.png');
+}
+
+.header {
+  width: 100%;
+  height: 8vh;
+  padding-top: 5px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-block {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_logo {
+    height: 8vh;
+    width: 50px;
+    background-image: url('../assets/icons/svg/tree.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+
+    &:hover {
+      filter: invert(51%) sepia(95%) saturate(491%) hue-rotate(60deg) brightness(121%) contrast(102%);
+    }
+
+    &.main-link {
+      filter: invert(51%) sepia(95%) saturate(491%) hue-rotate(60deg) brightness(121%) contrast(102%);
+    }
+  }
+
+  &_toys,
+  &_tree {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: Neucha;
+    transition: all 0.4s ease-in;
+
+    &:hover {
+      color: rgb(79, 248, 12);
+    }
+  }
+
+  &_toys.toys-link {
+    color: rgb(79, 248, 12);
+  }
+
+  &_tree.tree-link {
+    color: rgb(79, 248, 12);
+  }
+}
+
+.header__fav-block {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__search {
+    position: relative;
+
+    &_search {
+      width: 254px;
+      height: 36px;
+      border: 1px solid rgb(21, 54, 25);
+      border-radius: 30px;
+      background-color: rgba(255, 255, 255, 0.171);
+      backdrop-filter: blur(5px);
+      padding-left: 20px;
+      font-family: Steppe;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      color: white;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    &_icon {
+      width: 20px;
+      height: 20px;
+      background-image: url('../assets/icons/svg/search.svg');
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      top: 22%;
+      right: 5%;
+      cursor: pointer;
+    }
+  }
+
+  &_counter {
+    width: 50px;
+    height: 50px;
+    background-image: url('../assets/icons/svg/ball-2.svg');
+    background-position: 7px -7px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & span {
+      display: inline-block;
+      width: 66%;
+      height: 66%;
+      border-radius: 50%;
+      background-color: rgb(69, 109, 32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 16px;
+    }
+  }
+}
+
+.main {
+  width: 100%;
+  height: 87vh;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main__content {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &_name {
+    width: 600px;
+    height: 250px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.082);
+    font-family: Neucha;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 53px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+  }
+
+  &_button {
+    width: 320px;
+    height: 55px;
+    font-family: Steppe;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(8px);
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s ease-out;
+
+    &:hover {
+      transform: scale(1.3);
+      box-shadow: 0px 0px 10px 5px rgb(102, 221, 23);
+    }
+  }
+}
+
+.footer-wrapper {
+  justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 10px;
+
+  &_logo {
+    width: 100px;
+    height: 100%;
+    background-image: url('../assets/icons/school-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &_git {
+    width: 50px;
+    height: 100%;
+    background-image: url('../assets/icons/github.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+  }
+
+  &_year {
+    font-family: Neucha;
+    font-size: 36px;
+    color: white;
+  }
+}

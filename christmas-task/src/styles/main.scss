@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@font-face {
+  font-family: 'Steppe';
+  src: url('../assets/fonts/Steppe.ttf')
+}
+@import './reset.scss';
+@import './start-page.scss';
+@import './filters-page.scss';
+@import './tree.scss';
+@import './nouislider.scss';
+@import './adaptive.scss';
+
+* {
+  box-sizing: border-box;
+}

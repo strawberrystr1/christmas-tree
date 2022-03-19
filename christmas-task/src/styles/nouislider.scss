@@ -1,0 +1,25 @@
+#slider-amount .noUi-handle::before,
+#slider-amount .noUi-handle::after,
+#slider-year .noUi-handle::before,
+#slider-year .noUi-handle::after {
+    display: none;
+}
+
+#slider-amount, #slider-year {
+  height: 10px;
+}
+
+#slider-amount .noUi-connect,
+#slider-year .noUi-connect{
+  background: #2f8124;
+}
+
+#slider-amount .noUi-handle,
+#slider-year .noUi-handle {
+  height: 18px;
+  width: 18px;
+  top: -5px;
+  right: -9px; 
+  border-radius: 9px;
+}
+
